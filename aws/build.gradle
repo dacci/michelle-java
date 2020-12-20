@@ -1,0 +1,6 @@
+subprojects {
+  dependencies {
+    implementation platform('software.amazon.awssdk:bom:[2.0,3.0)')
+    implementation platform('com.amazonaws:aws-java-sdk-bom:[1.11,1.12)')
+  }
+}
